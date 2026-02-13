@@ -8,18 +8,18 @@ A Swift-based macOS app that transforms ChatGPT, Claude, and Gemini conversation
 
 ## 📋 Table of Contents
 
-- [What Does This App Do?](#what-does-this-app-do)
-- [Download & Installation](#download--installation)
-- [Troubleshooting](#troubleshooting)
-- [How to Use](#how-to-use)
-- [What Can I Do With Exported Markdowns?](#what-can-i-do-with-exported-markdowns)
-- [Privacy & Transparency](#privacy--transparency)
-- [Technical Details](#technical-details)
-- [Issues or Questions?](#issues-or-questions)
+- [🎯 What Does This App Do?](#what-does-this-app-do)
+- [📥 Download & Installation](#download--installation)
+- [⚠️ Troubleshooting](#troubleshooting)
+- [🚀 How to Use](#how-to-use)
+- [📂 What Can I Do With Exported Markdowns?](#what-can-i-do-with-exported-markdowns)
+- [🔒 Privacy & Transparency](#privacy--transparency)
+- [🛠 Technical Details](#technical-details)
+- [🐛 Issues or Questions?](#issues-or-questions)
 
 ---
 
-## 🎯 What Does This App Do?
+## What Does This App Do?
 
 Raccoon Sanitizer is **Step 2** in a complete chat export pipeline:
 
@@ -38,7 +38,7 @@ Raccoon Sanitizer is **Step 2** in a complete chat export pipeline:
 
 ---
 
-## 📥 Download & Installation
+## Download & Installation
 
 ### Which Version Do I Need?
 
@@ -56,7 +56,7 @@ Raccoon Sanitizer is **Step 2** in a complete chat export pipeline:
 
 ---
 
-## ⚠️ Troubleshooting
+## Troubleshooting
 
 ### "Cannot be opened because it is from an unidentified developer"
 
@@ -89,7 +89,7 @@ xattr -cr /Applications/RaccoonSanitizer.app
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 > **Want the full guide?** Check out the [complete Raccoon Sanitizer tutorial](https://aeolian-guan-53d.notion.site/Raccoon-Sanitizer-ChatGPT-conversations-export-2d118a6631c9808f875ac86a2cd555d3)
 
@@ -118,7 +118,7 @@ But you can customize these! Open settings and change:
 
 ---
 
-## 📂 What Can I Do With Exported Markdowns?
+## What Can I Do With Exported Markdowns?
 
 - **Obsidian** — Import for your personal knowledge management system
 - **VS Code** — View and edit with full markdown support
@@ -136,7 +136,7 @@ Exported files include a special `- ` prefix before headers (`###`, `####`) that
 
 ---
 
-## 🔒 Privacy & Transparency
+## Privacy & Transparency
 
 - **100% local processing** — Nothing is sent to any server
 - **Open source** — All code is available in this repository
@@ -144,7 +144,7 @@ Exported files include a special `- ` prefix before headers (`###`, `####`) that
 
 ---
 
-## 🛠 Technical Details
+## Technical Details
 
 - **Language**: Swift
 - **Platform**: macOS (Ventura and later recommended)
@@ -153,7 +153,7 @@ Exported files include a special `- ` prefix before headers (`###`, `####`) that
 
 ---
 
-## 🐛 Issues or Questions?
+## Issues or Questions?
 
 - **Found a bug?** [Open an issue](https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/issues)
 - **Have a suggestion?** [Start a discussion](https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/discussions)
@@ -161,7 +161,7 @@ Exported files include a special `- ` prefix before headers (`###`, `####`) that
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Created by [@gonzaleshvili](https://twitter.com/gonzaleshvili)
 
@@ -169,7 +169,7 @@ Inspired by the need for a better way to preserve and organize AI conversations.
 
 ---
 
-## 🚧 Coming Soon
+## Coming Soon
 
 - ✅ Apple Developer Program signing (no more security warnings!)
 - 📦 Homebrew installation
