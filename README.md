@@ -42,7 +42,7 @@ Raccoon Sanitizer is **Step 2** in a complete chat export pipeline:
 
 ### Which Version Do I Need?
 
-- **Apple Silicon (M1/M2/M3)**: [`RaccoonSanitizer_macOS-silicon-ver1_1.zip`](https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/blob/main/RaccoonSanitizer_macOS-silicon-ver1_1.zip)
+- **Apple Silicon (M1/M2/M3)**: [`RaccoonSanitizer_macOS-build_v-1-2_metadata.zip`](https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/blob/main/RaccoonSanitizer_macOS-build_v-1-2_metadata.zip)
 - **Intel Mac**: [`RaccoonSanitizer_macOS-intelVentura_v1_1.zip`](https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/blob/main/RaccoonSanitizer_macOS-intelVentura_v1_1.zip)
 
 > **Not sure which chip you have?** Click the Apple menu () → **About This Mac**
