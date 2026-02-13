@@ -149,7 +149,7 @@ Exported files include a special `- ` prefix before headers (`###`, `####`) that
 - **Language**: Swift
 - **Platform**: macOS (Ventura and later recommended)
 - **License**: MIT
-- **Version**: 1.1
+- **Version**: 1.2
 
 ---
 
