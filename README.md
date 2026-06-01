@@ -35,58 +35,53 @@ Raccoon Sanitizer is **Step 2** in a complete chat export pipeline:
 - ✏️ **Customizable role names** — Change "User" to "Architect" or "Claude" to "My BFF"
 - 💾 **Export to markdown** — Save anywhere for use in your PKM system
 - 🔍 **Easy navigation** — Special formatting makes long chats scannable
+- 🧠 **Resilient parsing** — Keeps split-up replies, preserves code blocks, and only collapses genuine duplicates (no more lost messages)
 - 🎨 **Supports ChatGPT, Claude, and Gemini** conversations
 
 ---
 
 ## Download & Installation
 
-### Which Version Do I Need?
+### One Download — Works on Every Mac
 
-- **Apple Silicon (M1/M2/M3)**: [`RaccoonSanitizer_macOS-build_v-1-2_metadata.zip`](https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/blob/main/RaccoonSanitizer_macOS-build_v-1-2_metadata.zip)
-- **Intel Mac**: [`RaccoonSanitizer_macOS-intelVentura_v1_1.zip`](https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/blob/main/RaccoonSanitizer_macOS-intelVentura_v1_1.zip)
+The app now ships as a **single universal build**: the same `.dmg` runs natively on both **Apple Silicon (M1/M2/M3/M4)** and **Intel** Macs. No more figuring out which chip you have.
 
-> **Not sure which chip you have?** Click the Apple menu () → **About This Mac**
+👉 **[Download the latest `.dmg` from the Releases page](https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/releases/latest)**
 
 ### Installation Steps
 
-1. Download the appropriate ZIP file from above
-2. Unzip the file (double-click the ZIP)
-3. Move the app to your Applications folder (optional but recommended)
-4. Open the app — you'll likely see a security warning → [See troubleshooting](#troubleshooting)
+1. Download the latest `.dmg` from the [Releases page](https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/releases/latest)
+2. Double-click the `.dmg` to open it
+3. Drag **RaccoonSanitizer** into your **Applications** folder
+4. Open the app — it should launch normally (it's now signed & notarized 🎉)
 
 ---
 
 ## Troubleshooting
 
-### "Cannot be opened because it is from an unidentified developer"
+### The app is now signed & notarized ✅
 
-**This is normal!** The app isn't signed with an Apple Developer certificate yet (approval in progress).
+As of the current release, Raccoon Sanitizer is **signed with an Apple Developer ID and notarized by Apple**. That means it should open like any other app — just double-click, no security warnings, no Terminal commands needed.
 
-### Method 1: Right-Click Open (Easiest)
+### Edge cases (older downloads / strict setups)
 
-1. **Right-click** (or Control+click) on the Raccoon Sanitizer app
-2. Select **"Open"** from the menu
-3. Click **"Open"** in the dialog that appears
-4. The app will now launch normally every time
+If you grabbed an **older, pre-notarization build**, or macOS still complains for some reason, any one of these will get you running:
 
-### Method 2: Terminal Command
+**Right-click open (easiest)**
+1. **Right-click** (or Control+click) the Raccoon Sanitizer app
+2. Choose **"Open"**, then **"Open"** again in the dialog
+3. It'll launch normally every time after that
 
-1. Open **Terminal** (Spotlight → type "Terminal")
-2. Type this command (replace the path with where you put the app):
+**System Settings**
+1. Try to open the app
+2. Go to **System Settings** → **Privacy & Security**
+3. Scroll to **"RaccoonSanitizer was blocked…"** and click **"Open Anyway"**
+
+**Terminal (legacy fallback)**
 ```bash
 xattr -cr /Applications/RaccoonSanitizer.app
 ```
-
-3. Press Enter
-4. Now double-click the app to open it normally
-
-### Method 3: System Settings
-
-1. Try to open the app (it will be blocked)
-2. Go to **System Settings** → **Privacy & Security**
-3. Scroll down to see **"RaccoonSanitizer was blocked..."**
-4. Click **"Open Anyway"**
+> Only needed for old unsigned builds — the current notarized release shouldn't require this.
 
 ---
 
@@ -149,8 +144,8 @@ Exported files include a special `- ` prefix before headers (`###`, `####`) that
 
 - **Language**: Swift
 - **Platform**: macOS (Ventura and later recommended)
+- **Build**: Universal binary (Apple Silicon + Intel), signed & notarized with an Apple Developer ID
 - **License**: MIT
-- **Version**: 1.2
 
 ---
 
@@ -172,7 +167,8 @@ Inspired by the need for a better way to preserve and organize AI conversations.
 
 ## Coming Soon
 
-- ✅ Apple Developer Program signing (no more security warnings!)
+- ✅ Apple Developer signing & notarization (done — no more security warnings!)
+- ✅ Universal build (one download for Apple Silicon + Intel)
 - 📦 Homebrew installation
 - 🔄 Batch processing for multiple chats
 - 🎨 Custom export templates
