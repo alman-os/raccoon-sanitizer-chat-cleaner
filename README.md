@@ -1,5 +1,11 @@
 # 🦝 Raccoon Sanitizer
 
+![app Icon](RaccoonSanitizer/Assets.xcassets/AppIcon.appiconset/256.png)
+
+**Export and clean your AI chat conversations with style.**
+
+A Swift-based macOS app that transforms ChatGPT, Claude, and Gemini conversations into beautiful, organized markdown files. Part of a 3-step pipeline that makes exporting your AI chats effortless.
+
 <table>
   <tr>
     <td>
@@ -15,11 +21,6 @@
   </tr>
 </table>
 
-**Export and clean your AI chat conversations with style.**
-
-A Swift-based macOS app that transforms ChatGPT, Claude, and Gemini conversations into beautiful, organized markdown files. Part of a 3-step pipeline that makes exporting your AI chats effortless.
-
-![app Icon](RaccoonSanitizer/Assets.xcassets/AppIcon.appiconset/256.png)
 ---
 
 ## 📋 Table of Contents
