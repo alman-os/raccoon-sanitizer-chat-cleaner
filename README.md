@@ -177,15 +177,3 @@ Exported files include a special `- ` prefix before headers (`###`, `####`) that
 Created by [@gonzaleshvili](https://twitter.com/gonzaleshvili)
 
 Inspired by the need for a better way to preserve and organize AI conversations.
-
----
-
-## Coming Soon
-
-- ✅ Apple Developer signing & notarization (done — no more security warnings!)
-- ✅ Universal build (one download for Apple Silicon + Intel)
-- 📦 Homebrew installation
-- 🔄 Batch processing for multiple chats
-- 🎨 Custom export templates
-
----
