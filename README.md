@@ -1,5 +1,20 @@
 # 🦝 Raccoon Sanitizer
 
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/r496TMPb7xs">
+        <img src="https://github.com/alman-os/raccoon-sanitizer-chat-cleaner/blob/main/yt-thumbnail.png" alt="Watch the video" width="300">
+      </a>
+    </td>
+    <td>
+      <h3>Export ChatGPT/Claude conversations to .md (editable turns, Obsidian friendly) (Free Download)</h3>
+      <p> 👈🏻 Watch the Youtube Explainer here!
+</p>
+    </td>
+  </tr>
+</table>
+
 **Export and clean your AI chat conversations with style.**
 
 A Swift-based macOS app that transforms ChatGPT, Claude, and Gemini conversations into beautiful, organized markdown files. Part of a 3-step pipeline that makes exporting your AI chats effortless.
